@@ -1,0 +1,27 @@
+<div class="header">
+  <img
+    [src]="img_espol.path"
+    [alt]="img_espol.alt_text"
+    [ngStyle]="{
+      'width.px': img_espol.width,
+      'height.px': img_espol.height
+    }">
+  <h1 class="title">Académico</h1>
+  <button class="logout_button"
+    [ngStyle]="{
+      'width.px': bttn.width,
+      'height.px': bttn.height,
+      'border-radius.px': bttn.border,
+      'border-color': bttn.color
+      }"
+  >
+  <img
+    [src]="img_logOut.path"
+    [alt]="img_logOut.alt_text"
+    [ngStyle]="{
+      'width.px': img_logOut.width,
+      'height.px': img_logOut.height
+    }">
+  </button>
+
+</div>

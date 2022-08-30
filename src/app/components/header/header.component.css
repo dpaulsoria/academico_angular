@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #02409d ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > img, .header > button {
+  margin: 10px;
+}
+
+.header > h1 {
+  font-size: 36px;
+  color: white;
+  font-family: sans-serif;
+}

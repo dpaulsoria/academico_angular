@@ -1,0 +1,33 @@
+<div class="body">
+  <div class="main-login">
+    <app-input
+      id="email_input"
+      name="email"
+      type="email"
+      label="Email"
+      required_string="true"
+      ngName="email"
+      #email_input="ngModel"
+      [(ngModel)]="user.email"
+    ></app-input>
+
+    <app-input
+      id="passwd_input"
+      name="passwd"
+      type="password"
+      label="Password"
+      required_string="true"
+      ngName="passwd"
+      #passwd_input="ngModel"
+      [(ngModel)]="user.passwd"
+    ></app-input>
+  <button
+    type="submit"
+    (click)="login()"
+  >
+    Login!
+  </button>
+
+  </div>
+
+</div>

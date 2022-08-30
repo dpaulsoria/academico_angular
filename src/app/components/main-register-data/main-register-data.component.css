@@ -1,0 +1,12 @@
+.week {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.main_time {
+  background-color: white;
+  border-radius: 15px;
+  margin: 2rem;
+
+}

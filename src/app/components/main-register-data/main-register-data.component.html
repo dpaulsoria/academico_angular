@@ -1,0 +1,6 @@
+<div class="main_time">
+  <div class="week">
+    <app-course-time [label]="day" *ngFor="let day of days" ></app-course-time>
+  </div>
+  <app-course-time [label]="h" *ngFor="let h of hours"></app-course-time>
+</div>

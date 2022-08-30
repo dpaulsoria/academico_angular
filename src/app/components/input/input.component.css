@@ -1,0 +1,23 @@
+.main-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  width: 100%;
+}
+
+input {
+  border-radius: 15px;
+  border: 0;
+}
+
+.message-error {
+  background-color: red;
+  color: white;
+  opacity: 0;
+  transition: all linear 0.5s;
+}
+
+.invalid {
+  opacity: 1;
+  border-color: red;
+}
