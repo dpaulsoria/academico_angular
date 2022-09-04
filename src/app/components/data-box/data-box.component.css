@@ -7,4 +7,6 @@ div {
   font-family: sans-serif;
   margin: 1.2rem;
   justify-items: center;
+  color: white;
+  word-wrap: true;
 }

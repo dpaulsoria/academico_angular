@@ -10,10 +10,15 @@ export class DataBoxComponent implements OnInit {
 
   @Input() label: string = '';
   @Input() bg_color: string = '';
+  @Input() action = '';
 
   constructor() { }
 
   ngOnInit(): void {
+
+
   }
+
+
 
 }

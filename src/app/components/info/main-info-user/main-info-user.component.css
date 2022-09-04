@@ -1,0 +1,23 @@
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container {
+  background-color: rgb(230, 230, 230);
+  margin: 25px;
+  border-radius: 15px;
+}
+
+.main-container {
+  background-color: white;
+  margin: 25px;
+  padding: 25px;
+  width: auto;
+  border-radius: 15px;
+}

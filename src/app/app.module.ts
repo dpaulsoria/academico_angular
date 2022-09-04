@@ -12,11 +12,14 @@ import { MainComponent } from './components/main/main.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BoxComponent } from './components/box/box.component';
 import { DataBoxComponent } from './components/data-box/data-box.component';
-import { CourseInfoComponent } from './components/course-info/course-info.component';
-import { MainRegisterDataComponent } from './components/main-register-data/main-register-data.component';
-import { CourseTimeComponent } from './components/course-time/course-time.component';
-import { CourseParComponent } from './components/course-par/course-par.component';
-import { ProfessorInfoComponent } from './components/professor-info/professor-info.component';
+import { CourseInfoComponent } from './components/register/course/course-info/course-info.component';
+import { MainRegisterDataComponent } from './components/register/main-register-data/main-register-data.component';
+import { CourseTimeComponent } from './components/register/course/course-time/course-time.component';
+import { CourseParComponent } from './components/register/course/course-par/course-par.component';
+import { ProfessorInfoComponent } from './components/register/professor/professor-info/professor-info.component';
+import { CourseComponent } from './components/register/course/course/course.component';
+import { MainInfoUserComponent } from './components/info/main-info-user/main-info-user.component';
+import { InfoDataComponent } from './components/info/info-data/info-data.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { ProfessorInfoComponent } from './components/professor-info/professor-in
     MainRegisterDataComponent,
     CourseTimeComponent,
     CourseParComponent,
-    ProfessorInfoComponent
+    ProfessorInfoComponent,
+    CourseComponent,
+    MainInfoUserComponent,
+    InfoDataComponent
   ],
   imports: [
     BrowserModule,
