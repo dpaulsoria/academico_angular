@@ -13,6 +13,6 @@ div {
   width: auto;
   height: auto;
   align-items: center;
-
+  word-wrap: break-word;
   padding: 5px;
 }
