@@ -11,4 +11,7 @@ div {
   text-align: center;
   justify-self: center;
   width: 150px;
+  align-items: center;
+  
+  padding: 5px;
 }
