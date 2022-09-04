@@ -7,11 +7,12 @@ div {
   width: 8rem;
   height: 2rem;
   margin: 0.2rem;
-  font-size: 16px;
+  font-size: 0.8rem;
   text-align: center;
   justify-self: center;
-  width: 150px;
+  width: auto;
+  height: auto;
   align-items: center;
-  
+
   padding: 5px;
 }
