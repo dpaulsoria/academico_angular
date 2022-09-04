@@ -20,6 +20,10 @@ import { ProfessorInfoComponent } from './components/register/professor/professo
 import { CourseComponent } from './components/register/course/course/course.component';
 import { MainInfoUserComponent } from './components/info/main-info-user/main-info-user.component';
 import { InfoDataComponent } from './components/info/info-data/info-data.component';
+import { InfoComponent } from './views/info/info.component';
+import { MainViewComponent } from './views/main-view/main-view.component';
+import { PagosComponent } from './views/pagos/pagos.component';
+import { PaymentsComponent } from './components/payments/payments.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +43,11 @@ import { InfoDataComponent } from './components/info/info-data/info-data.compone
     ProfessorInfoComponent,
     CourseComponent,
     MainInfoUserComponent,
-    InfoDataComponent
+    InfoDataComponent,
+    InfoComponent,
+    MainViewComponent,
+    PagosComponent,
+    PaymentsComponent
   ],
   imports: [
     BrowserModule,
