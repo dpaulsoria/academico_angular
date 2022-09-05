@@ -52,7 +52,8 @@ import { PaymentsComponent } from './components/payments/payments.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

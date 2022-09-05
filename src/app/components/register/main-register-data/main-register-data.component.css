@@ -1,6 +1,7 @@
 .main-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .hours {
@@ -17,7 +18,13 @@
   background-color: white;
   border-radius: 15px;
   margin: 2rem;
+  width: 50%;
+  height: fit-content
+}
 
+.cronog {
+/* justify-content: space-between;
+  height: 500px; */
 }
 
 .cupos-info {

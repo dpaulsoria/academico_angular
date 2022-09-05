@@ -10,22 +10,26 @@
         <p id="cupo">35</p>
       </div>
     </div>
-    <div class="week">
-      <app-course-time [label]="day" *ngFor="let day of days" ></app-course-time>
-    </div>
-    <div class="hours">
-      <app-course-time [label]="h" *ngFor="let h of hours"></app-course-time>
+    <div class="cronog">
+      <div class="week">
+        <app-course-time [label]="day" *ngFor="let day of days" ></app-course-time>
+      </div>
+      <div class="hours">
+        <app-course-time [label]="h" *ngFor="let h of hours"></app-course-time>
+      </div>
     </div>
   </div>
   <div class="main_time">
     <div class="cupos-info">
       <p>Horario de Exámenes</p>
     </div>
-    <div class="week">
-      <app-course-time [label]="day" *ngFor="let day of days" ></app-course-time>
-    </div>
-    <div class="hours">
-      <app-course-time [label]="h" *ngFor="let h of hours"></app-course-time>
+    <div class="cronog">
+      <div class="week">
+        <app-course-time [label]="day" *ngFor="let day of days" ></app-course-time>
+      </div>
+      <div class="hours">
+        <app-course-time [label]="h" *ngFor="let h of hours"></app-course-time>
+      </div>
     </div>
   </div>
 
