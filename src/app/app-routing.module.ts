@@ -6,21 +6,20 @@ import { MainViewComponent } from './views/main-view/main-view.component';
 import { PagosComponent } from './views/pagos/pagos.component';
 
 const routes: Routes = [{
-    path: 'main',
-    component: MainViewComponent,
+    path: 'login',
+    component: LoginComponent,
   },
   { path: '', redirectTo: '/main', pathMatch: 'full' },
   {
     path: 'info',
     component: InfoComponent,
-  },{ path: '', redirectTo: '/main', pathMatch: 'full' },
-  {
+  },{
     path: 'pagos',
     component: PagosComponent,
-  },{ path: '', redirectTo: '/main', pathMatch: 'full' },
+  },
   {
-    path: 'login',
-    component: LoginComponent,
+    path: 'main',
+    component: MainViewComponent,
   }];
 
 @NgModule({
