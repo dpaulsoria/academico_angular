@@ -4,10 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InputComponent } from './components/input/input.component';
 import { ButtonComponent } from './components/button/button.component';
 import { HeaderComponent } from './components/header/header.component';
-import { LoginComponent } from './components/login/login.component';
 import { MainComponent } from './components/main/main.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BoxComponent } from './components/box/box.component';
@@ -23,15 +21,14 @@ import { InfoDataComponent } from './components/info/info-data/info-data.compone
 import { InfoComponent } from './views/info/info.component';
 import { MainViewComponent } from './views/main-view/main-view.component';
 import { PagosComponent } from './views/pagos/pagos.component';
+import { LoginComponent } from './views/login/login.component';
 import { PaymentsComponent } from './components/payments/payments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputComponent,
     ButtonComponent,
     HeaderComponent,
-    LoginComponent,
     MainComponent,
     NavComponent,
     BoxComponent,
@@ -47,7 +44,8 @@ import { PaymentsComponent } from './components/payments/payments.component';
     InfoComponent,
     MainViewComponent,
     PagosComponent,
-    PaymentsComponent
+    PaymentsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
