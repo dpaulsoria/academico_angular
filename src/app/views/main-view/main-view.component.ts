@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ComService } from 'src/app/servicios/com.service';
 
 @Component({
   selector: 'app-main-view',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainViewComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private com: ComService) { }
   ngOnInit(): void {
+    this.com.triggerLogin.subscribe(data => {
+      console.log('DATA');
+      console.log(data);
+
+    })
   }
 
 }

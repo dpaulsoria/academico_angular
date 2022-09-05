@@ -2,22 +2,22 @@
 <app-header></app-header>
 <main>
   <div class="main-container">
-    <form class="login-form" action="login()">
+    <form class="login-form" (ngSubmit)="login()" #login_form="ngForm">
     <table class="login">
       <tr>
         <th><label for="email"><h2>Email</h2></label></th>
         <td>
-          <input type="email" name="email" id="email">
+          <input #email="ngModel" [(ngModel)]="user.email" required type="email" name="email" id="email">
         </td>
       </tr>
       <tr>
         <th><label for="passwd"><h2>Password</h2></label></th>
         <td>
-          <input type="password" name="passwd" id="passwd">
+          <input #passwd="ngModel" [(ngModel)]="user.passwd" type="password" name="passwd" id="passwd">
         </td>
       </tr>
     </table>
-    <button type="submit" >
+    <button [disabled]="login_form.invalid" type="submit" >
             Login
           </button>
     </form>

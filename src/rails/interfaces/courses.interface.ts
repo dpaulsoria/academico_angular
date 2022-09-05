@@ -1,4 +1,4 @@
-interface Courses {
+export interface Courses {
 	code:string
 	name:string
 	credits:number
