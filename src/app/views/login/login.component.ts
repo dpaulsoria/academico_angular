@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/servicios/api.service';
 import { ComService } from 'src/app/servicios/com.service';
 // import { Students } from 'src/rails/interfaces/students.interface';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -22,19 +22,17 @@ export class LoginComponent implements OnInit {
     let user = this.user.email.split('@')[0];
 
     this.api.getStudentByUser(user).subscribe(data => {
-      console.log(data);
+      // console.log(data);
       const validate: boolean = this.user.email === data['email'] && this.user.passwd === data['passwrd'];
 
-      console.log(validate);
+      // console.log(validate);
 
-      console.log(this.user);
+      // console.log(this.user);
 
       if (validate) {
-        this.rutaRouter.navigate(['/main']);
+        this.rutaRouter.navigate(['/info']);
         // this.rutaRouter.navigateByUrl('/main', data);
-        this.com.triggerLogin.emit({
-          data
-        })
+        this.com.triggerLogin.emit({data});
       } else {
         alert('Email o contraseña inválidos');
       }

@@ -8,13 +8,16 @@ import { ComService } from 'src/app/servicios/com.service';
 })
 export class MainViewComponent implements OnInit {
 
+  data = {};
+
   constructor(private com: ComService) { }
   ngOnInit(): void {
-    this.com.triggerLogin.subscribe(data => {
-      console.log('DATA');
-      console.log(data);
+    // this.com.triggerLogin.subscribe(data => {
+    //   console.log('Register View');
+    //   console.log(data);
+    //   this.data = data;
 
-    })
+    // })
   }
 
 }

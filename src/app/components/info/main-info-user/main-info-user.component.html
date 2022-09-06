@@ -12,7 +12,7 @@
         </th>
         <td>
           <app-data-box
-          label="201812732"
+          [label]="arre['data']?.name"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -26,7 +26,7 @@
         </th>
         <td>
           <app-data-box
-          label="Danny Paul Soria Muñoz"
+          label="{{arre.data?.name}}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -40,7 +40,7 @@
         </th>
         <td>
           <app-data-box
-          label="2"
+          label="{{ arre['ise'] }}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -54,7 +54,7 @@
         </th>
         <td>
           <app-data-box
-          label="Mestizo"
+          label="{{ arre['etnico'] }}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -68,7 +68,7 @@
         </th>
         <td>
           <app-data-box
-          label="No"
+          label="{{ arre['sancion'] }}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -82,7 +82,7 @@
         </th>
         <td>
           <app-data-box
-          label="7.18"
+          label="{{ arre['prom_gen_apro'] }}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -110,7 +110,7 @@
         </th>
         <td>
           <app-data-box
-          label="9"
+          label="{{ arre['credits'] }}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -124,7 +124,7 @@
         </th>
         <td>
           <app-data-box
-          label="0"
+          label="{{ arre['credits_vinculacion'] }}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
@@ -138,7 +138,7 @@
         </th>
         <td>
           <app-data-box
-          label="9 - Estudiante regular"
+          label="{{ arre['credits'] }} - {{ estado_estudiante }}"
           bg_color='#67cbf8'
           ></app-data-box>
         </td>
