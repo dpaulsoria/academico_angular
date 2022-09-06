@@ -23,6 +23,8 @@ import { MainViewComponent } from './views/main-view/main-view.component';
 import { PagosComponent } from './views/pagos/pagos.component';
 import { LoginComponent } from './views/login/login.component';
 import { PaymentsComponent } from './components/payments/payments.component';
+import { CourseContentComponent } from './components/course-content/course-content.component';
+import { CronogramaRowComponent } from './components/cronograma-row/cronograma-row.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { PaymentsComponent } from './components/payments/payments.component';
     MainViewComponent,
     PagosComponent,
     PaymentsComponent,
-    LoginComponent
+    LoginComponent,
+    CourseContentComponent,
+    CronogramaRowComponent
   ],
   imports: [
     BrowserModule,

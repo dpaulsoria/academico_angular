@@ -1,0 +1,19 @@
+div {
+  border-radius: 15px;
+  text-align: center;
+  background-color: #5a6266;
+  color: white;
+  font-family: sans-serif;
+  width: 8rem;
+  height: 2rem;
+  margin: 0.2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  justify-self: center;
+  width: auto;
+  height: fit-content;
+  align-items: center;
+  word-wrap: break-word;
+  padding: 5px;
+
+}
